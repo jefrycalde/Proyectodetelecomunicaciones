@@ -43,7 +43,7 @@ Se realizo la configuracion de los routers asignandoles una IP a cada puerto cor
 
 - Cree un 'mapa criptográfico' que se utiliza para aplicar la configuración de la fase 2 a una interfaz.
 
-![Texto alternativo](https://files.catbox.moe/4rlehw.png)
+![Texto alternativo](https://files.catbox.moe/5euf6g.png)
 
 - Aplique ese mapa criptográfico a una interfaz (generalmente la que está frente a Internet).
 
