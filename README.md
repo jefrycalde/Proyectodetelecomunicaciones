@@ -49,6 +49,8 @@ Se realizo la configuracion de los routers asignandoles una IP a cada puerto cor
 
 ![Texto alternativo](https://files.catbox.moe/ykdy7a.png)
 
+Esta configuracion se debe de realizar en los dos dispositivos Cisco, y realizar las pruebas para verificar el funcionamiento.
+
 ### Configuracion de VoIP
 Para realizar esta central VoIP se utilizo una maquina con sistema operativo Linux para realizar las configuraciones de las direcciones para los telefonos virtuales.
 
@@ -69,6 +71,5 @@ Por ultimo utilizando la herramienta Zoiper, se colocan las direcciones creadas 
 
 ![Texto alternativo](https://files.catbox.moe/lc6oyz.png)
 
-Esta configuracion se debe de realizar en los dos dispositivos Cisco, y realizar las pruebas para verificar el funcionamiento.
 ## Topologia
 ![Texto alternativo](https://files.catbox.moe/8jtdfy.png)
