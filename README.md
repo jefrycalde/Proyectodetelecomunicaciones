@@ -15,7 +15,7 @@ Para la configuracion de la interfaz LAN se uniero los dos puertos que conectan 
 
  ![Texto alternativo](https://files.catbox.moe/2ymm1y.png)
 
-### Configuracion de Roter Cisco
+### Configuracion de Router Cisco
 #### WAN y LAN:
 Se realizo la configuracion de los routers asignandoles una IP a cada puerto correspondiente, utilizando el protocolo dhcp para asignar IP en la interfaz de salida a la WAN y manualmente para la interfaz LAN.
 
