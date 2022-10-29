@@ -1,4 +1,51 @@
 # VPN SITE-TO-SITE
+Imprementacion de una red vpn site to site con fortinet y telnet
+## Informacion
+### Herramienta de simulacion utilizada
+
+GNS3
+
+ ![Texto alternativo](https://files.catbox.moe/7tbo2j.png)
+ 
+VMWARE
+
+ ![Texto alternativo](https://files.catbox.moe/tqs5bk.jpg)
+ 
+ ### Fortigate
+ Los Firewall Fortinet (también conocidos como firewalls de próxima generación NGFW o simplemente FortiGate) son dispositivos de seguridad que permiten la creación de redes seguras y proporcionan una protección amplia, integrada y automatizada contra amenazas emergentes y sofisticadas.
+ 
+  ![Texto alternativo](https://files.catbox.moe/712msq.png)
+  
+   ### Que es vpn y por que
+   
+  ![Texto alternativo](https://files.catbox.moe/vilpr4.png)
+  
+   ### Que es una vpn site to site
+   
+   Un túnel VPN site-to-site permite establecer conexiones seguras entre múltiples ubicaciones geográficas a través de una red pública como Internet. Una VPN site-to-site extiende la red de una compañía, haciendo que los recursos informáticos de una ubicación estén disponibles en otras ubicaciones.
+   
+![Texto alternativo](https://files.catbox.moe/fpgxyq.png)
+
+   ### Diferencias entre VPN Site-to-Site de las VPN de Acceso Remoto
+   
+   VPN Site-to-Site: Sirve para conectar redes LAN completas entre sí, esto es que el router servidor conectara a todos los clientes que están conectados a él, con todos los equipos que están conectados al router cliente.
+
+VPN Acceso Remoto: Sirve para conectar a un usuario en particular con la red principal del router servidor.
+
+ ### Protocolos utilizados
+ 
+ - Vpn
+ - Telnet
+ - Voip
+ - Ipsec
+ - Isakmp
+ ### Componentes utilizados
+ 
+ - Maquinas virtuales
+ - Foryigate
+ - Router Cisko 3725
+ - Switches
+
 ## Desarrollo
 ### Configuracion de Fortigate
 #### WAN:
