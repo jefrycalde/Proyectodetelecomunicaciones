@@ -34,15 +34,19 @@ Se realizo la configuracion de los routers asignandoles una IP a cada puerto cor
  Se realizo la configuracion del VPN entre los dos dispositivos Cisco, el cual se detalla la configuracion en las siguientes imagenes:
  
 - Configurar una política para la fase 1 del túnel (ISAKMP)
+
 ![Texto alternativo](https://files.catbox.moe/8rpqw6.png)
 
 - Configure una ACL para definir qué tráfico se cifrará y un 'Conjunto de transformación' que dictará el cifrado y el hash para la fase 2 (IPSEC)
+
 ![Texto alternativo](https://files.catbox.moe/sbzx4t.png)
 
 - Cree un 'mapa criptográfico' que se utiliza para aplicar la configuración de la fase 2 a una interfaz.
+
 ![Texto alternativo](https://files.catbox.moe/4rlehw.png)
 
 - Aplique ese mapa criptográfico a una interfaz (generalmente la que está frente a Internet).
+
 ![Texto alternativo](https://files.catbox.moe/ykdy7a.png)
 
 ## Topologia
