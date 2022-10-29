@@ -49,6 +49,26 @@ Se realizo la configuracion de los routers asignandoles una IP a cada puerto cor
 
 ![Texto alternativo](https://files.catbox.moe/ykdy7a.png)
 
+### Configuracion de VoIP
+Para realizar esta central VoIP se utilizo una maquina con sistema operativo Linux para realizar las configuraciones de las direcciones para los telefonos virtuales.
+
+Primero se debe de realizar la instalacion de la herramienta asterisk, el cual por medio de este es que se realizan las conexiones de paquetes SIP.
+
+![Texto alternativo](https://files.catbox.moe/5pkkuv.png)
+
+Luego debemos de crear las extensiones que se utilizaran, siendo en este caso 'ext101' y 'ext102'.
+
+![Texto alternativo](https://files.catbox.moe/byv9l2.png)
+
+Podemos observar que ya existen las direcciones que se crearon.
+
+![Texto alternativo](https://files.catbox.moe/ba7bve.png)
+![Texto alternativo](https://files.catbox.moe/rgcyfe.png)
+
+Por ultimo utilizando la herramienta Zoiper, se colocan las direcciones creadas y se realizan las pruebas de conexion.
+
+![Texto alternativo](https://files.catbox.moe/lc6oyz.png)
+
 Esta configuracion se debe de realizar en los dos dispositivos Cisco, y realizar las pruebas para verificar el funcionamiento.
 ## Topologia
 ![Texto alternativo](https://files.catbox.moe/8jtdfy.png)
