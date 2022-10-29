@@ -21,7 +21,7 @@ Para la configuracion de la interfaz LAN se uniero los dos puertos que conectan 
 - WAN y LAN:
 Se realizo la configuracion de los routers asignandoles una IP a cada puerto correspondiente, utilizando el protocolo dhcp para asignar IP en la interfaz de salida a la WAN y manualmente para la interfaz LAN.
 
-![Texto alternativo](https://files.catbox.moe/5e71zn.png)
+![Texto alternativo](https://files.catbox.moe/f1ualv.png)
 
 Como se muestra en la imagen la asignacion de las IP y prueba de conexion.
 
