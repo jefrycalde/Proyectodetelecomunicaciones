@@ -5,4 +5,4 @@ proyecto
 
 # Topologia
 https://files.catbox.moe/8jtdfy.png
-![topologia]([/ruta/a/la/imagen.jpg](https://files.catbox.moe/8jtdfy.png))
+![Texto alternativo](https://files.catbox.moe/8jtdfy.png)
