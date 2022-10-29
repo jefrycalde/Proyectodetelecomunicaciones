@@ -49,5 +49,6 @@ Se realizo la configuracion de los routers asignandoles una IP a cada puerto cor
 
 ![Texto alternativo](https://files.catbox.moe/ykdy7a.png)
 
+Esta configuracion se debe de realizar en los dos dispositivos Cisco, y realizar las pruebas para verificar el funcionamiento.
 ## Topologia
 ![Texto alternativo](https://files.catbox.moe/8jtdfy.png)
