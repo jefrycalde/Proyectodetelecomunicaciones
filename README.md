@@ -23,12 +23,20 @@ Se realizo la configuracion de los routers asignandoles una IP a cada puerto cor
 
  Como se muestra en la imagen la asignacion de las IP y prueba de conexion.
 
-#### Telnet
+#### Telnet:
  Se realizo la configuracion de telnet en los router cisco para poder acceder a su consola desde cualquier maquina que se encuentre en la red.
 
  ![Texto alternativo](https://files.catbox.moe/5xn0lu.png)
  
  Para el telnet se necesita ingresar un usuario y contraseña por el cual acceder desde la consola.
+ 
+ #### VPN:
+ Se realizo la configuracion del VPN entre los dos dispositivos Cisco, el cual se detalla la configuracion en las siguientes imagenes:
+ 
+- Configurar una política para la fase 1 del túnel (ISAKMP)
+- Configure una ACL para definir qué tráfico se cifrará y un 'Conjunto de transformación' que dictará el cifrado y el hash para la fase 2 (IPSEC)
+- Cree un 'mapa criptográfico' que se utiliza para aplicar la configuración de la fase 2 a una interfaz.
+- Aplique ese mapa criptográfico a una interfaz (generalmente la que está frente a Internet).
 
 ## Topologia
 ![Texto alternativo](https://files.catbox.moe/8jtdfy.png)
