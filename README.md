@@ -37,15 +37,15 @@ Se realizo la configuracion de los routers asignandoles una IP a cada puerto cor
 
 ![Texto alternativo](https://files.catbox.moe/8rpqw6.png)
 
-- Configure una ACL para definir qué tráfico se cifrará y un 'Conjunto de transformación' que dictará el cifrado y el hash para la fase 2 (IPSEC)
+- Configurar una ACL para definir qué tráfico se cifrará y un 'Conjunto de transformación' que dictará el cifrado y el hash para la fase 2 (IPSEC)
 
 ![Texto alternativo](https://files.catbox.moe/sbzx4t.png)
 
-- Cree un 'mapa criptográfico' que se utiliza para aplicar la configuración de la fase 2 a una interfaz.
+- Crear un 'mapa criptográfico' que se utiliza para aplicar la configuración de la fase 2 a una interfaz.
 
 ![Texto alternativo](https://files.catbox.moe/5euf6g.png)
 
-- Aplique ese mapa criptográfico a una interfaz (generalmente la que está frente a Internet).
+- Aplicar ese mapa criptográfico a una interfaz, en este caso la WAN.
 
 ![Texto alternativo](https://files.catbox.moe/ykdy7a.png)
 
