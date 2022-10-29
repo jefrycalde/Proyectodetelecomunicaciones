@@ -1,8 +1,6 @@
-# Proyectodetelecomunicaciones
-proyecto
-### VPN SITE-TO-SITE
-### Desarrollo
-## Configuracion de Fortigate
+# VPN SITE-TO-SITE
+## Desarrollo
+### Configuracion de Fortigate
 - WAN:
 Para la configuracion del fortigate se habilitaron dos interfaces las cuales serian para WAN y otra para LAN. Mediante la consola de comandos se configuro manualmente el puerto 1 para la interfaz WAN, esto se muestra en la siguiente imagen:
 
@@ -17,7 +15,7 @@ Para la configuracion de la interfaz LAN se uniero los dos puertos que conectan 
 
  ![Texto alternativo](https://files.catbox.moe/2ymm1y.png)
 
-## Configuracion de Roter Cisco
+### Configuracion de Roter Cisco
 - WAN y LAN:
 Se realizo la configuracion de los routers asignandoles una IP a cada puerto correspondiente, utilizando el protocolo dhcp para asignar IP en la interfaz de salida a la WAN y manualmente para la interfaz LAN.
 
