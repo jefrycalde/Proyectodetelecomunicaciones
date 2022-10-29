@@ -25,5 +25,10 @@ Se realizo la configuracion de los routers asignandoles una IP a cada puerto cor
 
 Como se muestra en la imagen la asignacion de las IP y prueba de conexion.
 
+- Telnet
+Se realizo la configuracion de telnet en los router cisco para poder acceder a su consola desde cualquier maquina que se encuentre en la red.
+
+![Texto alternativo](https://files.catbox.moe/5xn0lu.png)
+
 # Topologia
 ![Texto alternativo](https://files.catbox.moe/8jtdfy.png)
