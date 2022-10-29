@@ -42,7 +42,7 @@ VPN Acceso Remoto: Sirve para conectar a un usuario en particular con la red pri
  ### Componentes utilizados
  
  - Maquinas virtuales
- - Foryigate
+ - Fortigate
  - Router Cisko 3725
  - Switches
 
